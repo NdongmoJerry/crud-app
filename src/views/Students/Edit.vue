@@ -1,5 +1,5 @@
 <template>
-    <div class="container mt-5">
+    <div class="container mt-6">
       <div class="card">
           <div class="card-header">
               <h4>Edit Students</h4>
@@ -17,23 +17,23 @@
   
   
   
-          <div class="mb-3">
+          <div class="mb-4">
               <label for="">Name</label>
               <input type="text" v-model="model.student.name" class="form-control">
           </div>
-          <div class="mb-3">
+          <div class="mb-4">
               <label for="">Course</label>
               <input type="text" v-model="model.student.course" class="form-control">
           </div>
-          <div class="mb-3">
+          <div class="mb-4">
               <label for="">Email</label>
               <input type="email" v-model="model.student.email" class="form-control">
           </div>
-          <div class="mb-3">
+          <div class="mb-4">
               <label for="">Phone</label>
               <input type="number" v-model="model.student.phone" class="form-control">
           </div>
-          <div class="mb-3">
+          <div class="mb-4">
             <RouterLink to="/students" @click="updateStudent"  class="btn btn-primary">Update</RouterLink>
           </div>
       </div>
